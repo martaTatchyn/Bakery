@@ -6,51 +6,73 @@
     <title>Bakery</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css"> -->
-    <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <img src="./image/icons/logo.svg" 
-        alt="logo Bakery"
-         width="110" 
-         height="95">
-         <nav>
-            <ul>
-                <li>Occasions</li>
-                <li>All Categories</li>
-                <li>Gifts & Bundles</li>
-                <li><a href="#">Our Brands</a></li>
-                <li><a href="#">About Us</a></li>
+    <header class="header">
+        <div class="container">
+          <img
+            src="./image/icons/logo.svg"
+            alt="logo Bakery"
+            width="110"
+            height="95"
+            class="header-logo"
+          />
+          <nav class="header-navigation">
+            <ul class="header-list">
+              <li class="header-item">Occasions</li>
+              <li class="header-item">All Categories</li>
+              <li class="header-item">Gifts & Bundles</li>
+              <li class="header-item"><a class="header-link" href="#">Our Brands</a></li>
+              <li class="header-item"><a class="header-link" href="#">About Us</a></li>
             </ul>
-         </nav>
-         <ul>
-            <li>
-                <button>
-                    <img 
-                    src="./image/icons/search.svg" 
-                    alt="search" 
-                    width="24" 
-                    height="24">
+          </nav>
+  
+          <div class="header-content">
+            <ul class="header-options">
+              <li class="header-option">
+                <button class="header-btn">
+                  <img
+                    src="./image/icons/search.svg"
+                    alt="search"
+                    width="24"
+                    height="24"
+                    class="header-icon"
+                  />
+                </button class="header-btn">
+              </li>
+              <li class="header-option">
+                <button class="header-btn">
+                  <img
+                    src="./image/icons/user.svg"
+                    alt="user"
+                    width="30"
+                    height="30"
+                    class="header-icon"
+                  />
                 </button>
-            </li>
-            <li>
-                <button>
-                    <img 
-                    src="./image/icons/user.svg" 
-                    alt="user" 
-                    width="30" 
-                    height="30">
+              </li>
+              <li class="header-option">
+                <button class="header-btn">
+                  <img
+                    src="./image/icons/basket.svg"
+                    alt="basket"
+                    width="30"
+                    height="30"
+                    class="header-icon"
+                  />
                 </button>
-            </li>
-            <li>
-                <button>
-                    <img 
-                    src="./image/icons/basket.svg" 
-                    alt="basket" 
-                    width="30" 
-                    height="30">
-                </button>
-            </li>
-         </ul>
-    </header>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+  
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Support Your Local Artisans</h1>
+          <h2 class="hero-subtitle">Discover brands and theit stories</h2>
+          <button class="hero-btn">Browse bands</button>
+        </div>
+      </section>
 </html>
