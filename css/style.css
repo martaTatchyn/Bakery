@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,700;1,700&family=Poppins:wght@300;400;500;600&display=swap");
 body {
     font-family: Poppins;
 }
@@ -30,4 +29,39 @@ body {
     font-size: 15px;
     color: var(--text);
     
+}
+
+.hero-title {
+    font-family: Cormorant;
+font-weight: 700;
+font-size: 50px;
+color: #1f1f1f;
+}
+
+.hero-subtitle {
+font-weight: 300;
+font-size: 26px;
+color: #1f1f1f;
+}
+
+.hero-btn {
+font-weight: 500;
+font-size: 18px;
+color: #fff;
+background-color: #FF8126;
+}
+
+.header-btn {
+    width: 60px;
+height: 60px;
+border-radius: 100%;
+border-width: 1px;
+border-color: #bfbfbf;
+border-style: solid;
+}
+
+.header-link {
+text-decoration: none;
+color: var(--text);
+font-weight: 500;
 }
